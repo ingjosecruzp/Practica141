@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    		<!-- Soporte para caracteres esèciales y ñ -->
+			<meta charset="utf-8" />
+	        <meta name="format-detection" content="telephone=no" />
+	        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+
+	        <!-- Hojas de estilo -->
+	        <link rel="stylesheet" href="css/lungo.css">
+			<link rel="stylesheet" href="css/lungo.icon.css">
+			<link rel="stylesheet" href="css/lungo.theme.css">
+
+			<!-- Script -->
+			<script src="js/quo.js"></script>
+			<script src="js/lungo.js"></script>
+
+	        <title>Practica 11</title>
+   	</head>
+	<body class="app">
+			<section id="main" data-transition="">
+				<header data-title="Formulario"></header>
+			    <article id="formulario" class="active">
+			        <div class="form">
+			        		<fieldset>
+			        				<label>Nombre</label>
+			        				<input type="text" placeholder="Dame tu nombre" />
+			        				<label class="anchor">Fecha de nacimiento</label>
+			        				<input type="date" class="align_right" placeholder="Dame tu fecha" value="01/01/1980" />
+			        				<br>
+			        				<label>Pais</label>
+			        				<label class="select">
+			        						<select>
+			        								<option value="1">Mexico</option>
+			        								<option value="2">USA</option>
+			        								<option value="3">Francia</option>
+			        						</select>
+			        				</label>
+			        				<label class="anchor">Seleccion si o no</label>
+			        				<input type="checkbox" class="inline right" />
+			        				<br><br><br>
+			        				<label>Error</label>
+			        				<input type="text" placeholder="Escribe un error" class="text align_right error" />
+			        		</fieldset>
+			        </div>
+			    </article>
+			</section>
+			<script type="text/javascript">
+				Lungo.init({});
+			</script>
+	</body>
+</html>
+
+
+
